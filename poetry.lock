@@ -201,7 +201,7 @@ version = "2.1.7"
 [package.extras]
 html5lib = ["beautifulsoup4 (>=4.4.1,<5)", "html5lib (>=0.999,<=1.0.1)"]
 lxml = ["lxml (>=4.2.0,<5)"]
-testing = ["tox (>=2.3.1)", "markov_draftjs (0.1.1)", "memory-profiler (0.47)", "psutil (5.4.1)", "coverage (>=4.1.0)", "flake8 (>=3.2.0)", "isort (4.2.5)", "beautifulsoup4 (>=4.4.1,<5)", "html5lib (>=0.999,<=1.0.1)", "lxml (>=4.2.0,<5)"]
+testing = ["tox (>=2.3.1)", "markov-draftjs (0.1.1)", "memory-profiler (0.47)", "psutil (5.4.1)", "coverage (>=4.1.0)", "flake8 (>=3.2.0)", "isort (4.2.5)", "beautifulsoup4 (>=4.4.1,<5)", "html5lib (>=0.999,<=1.0.1)", "lxml (>=4.2.0,<5)"]
 
 [[package]]
 category = "dev"
@@ -285,7 +285,7 @@ description = "A Python utility / library to sort Python imports."
 name = "isort"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "5.0.3"
+version = "5.0.6"
 
 [package.extras]
 pipfile_deprecated_finder = ["pipreqs", "requirementslib", "tomlkit (>=0.5.3)"]
@@ -524,7 +524,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "75722c2e76d3c7dea8dbe9ce14c375e1b1e2937c10d6610b645ecd940a3d0706"
+content-hash = "30e0281a2127c5932aea862d0935d6128f7324584778acebbcf9f2e79dc22bfd"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -595,6 +595,7 @@ djangorestframework = [
     {file = "djangorestframework-3.11.0.tar.gz", hash = "sha256:e782087823c47a26826ee5b6fa0c542968219263fb3976ec3c31edab23a4001f"},
 ]
 draftjs-exporter = [
+    {file = "draftjs_exporter-2.1.7-py3-none-any.whl", hash = "sha256:d415a9964690a2cddb66a31ef32dd46c277e9b80434b94e39e3043188ed83e33"},
     {file = "draftjs_exporter-2.1.7.tar.gz", hash = "sha256:5839cbc29d7bce2fb99837a404ca40c3a07313f2a20e2700de7ad6aa9a9a18fb"},
 ]
 flake8 = [
@@ -618,8 +619,8 @@ importlib-metadata = [
     {file = "importlib_metadata-1.7.0.tar.gz", hash = "sha256:90bb658cdbbf6d1735b6341ce708fc7024a3e14e99ffdc5783edea9f9b077f83"},
 ]
 isort = [
-    {file = "isort-5.0.3-py3-none-any.whl", hash = "sha256:3fbfad425b0a08a2969c5e1821d88785c210a08656c029c28931a1620f2d0f12"},
-    {file = "isort-5.0.3.tar.gz", hash = "sha256:4c48d4cd773a6226baaaa176839e6f7ff82ef7c7842f6c54374fe2b14df4024b"},
+    {file = "isort-5.0.6-py3-none-any.whl", hash = "sha256:76a97d9acdb3a376c48fafddbe9177192d4ac35b0b2c21a0c965b9604a412af1"},
+    {file = "isort-5.0.6.tar.gz", hash = "sha256:af3ac4524d1256e3f32d155da8fb43b2a94201644fa6b45813c8783fc51c3841"},
 ]
 l18n = [
     {file = "l18n-2018.5.tar.gz", hash = "sha256:46e72c980d06a7511726f1da10a32fa524f7e2937c0af5ad52d39577024a4382"},
