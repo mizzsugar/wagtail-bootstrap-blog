@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: isort
+    versions:
+    - 5.7.0
+  - dependency-name: autopep8
+    versions:
+    - 1.5.4
+  - dependency-name: wagtail
+    versions:
+    - 2.9.3
